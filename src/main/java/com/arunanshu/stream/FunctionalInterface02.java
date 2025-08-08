@@ -23,5 +23,8 @@ public class FunctionalInterface02 {
         String s3="here is what i can do";
         Map<Character,Long> m3 = s3.chars().mapToObj(a->(char)a).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
         System.out.println("3 "+m3);
+
+        //4
+
     }
 }
