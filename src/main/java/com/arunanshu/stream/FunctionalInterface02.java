@@ -29,5 +29,8 @@ public class FunctionalInterface02 {
 
         //5
 
+        //6
+
+
     }
 }
